@@ -1,14 +1,14 @@
 # Extended Cluedo Game
 
-This is an enhanced command-line implementation of the classic Cluedo (Clue) board game with additional features and an expanded mansion.
+This is an enhanced command-line version of the classic Cluedo (Clue) board game, featuring additional features and an expanded mansion.
 
 ## Requirements
 - Python 3.6 or higher
 
 ## How to Run the Game
-1. Clone the repository or download the source code
-2. Navigate to the source code directory
-3. Run the game with Python:
+- Clone the repository 
+- Navigate to the source code directory
+- Run the game with Python:
    ```
    python main.py
    ```
@@ -25,13 +25,14 @@ This is an enhanced command-line implementation of the classic Cluedo (Clue) boa
 - **Turn-based Gameplay**: Dice rolls and movement points
 - **Real-time Game State**: View current positions and available moves
 
-## Game Instructions
-1. The game randomly selects a character, weapon, and room as the murder solution
-2. Players take turns moving through the mansion and making suggestions
-3. When you enter a room, you MUST make a suggestion
-4. Suggestions move the accused character and weapon to your current room
-5. Use detective skills to deduce the solution
-6. The game tracks player positions, weapons, and character locations
+## Game rules and play
+1. Select the number of players (3-6)**
+2. The game automatically distributes cards and establishes starting positions.
+3. Players take turns rolling dice and traversing the mansion.
+4. Upon entering a main room, players propose suggestions.
+5. Suggestions facilitate the movement of characters and weapons to the current room.
+6. Players employ deduction to unravel the mystery.
+7. The game concludes when a player accurately accuses an individual.
 
 ## Available Commands
 - `move [room name]` - Move to an adjacent room (uses 1 move)
